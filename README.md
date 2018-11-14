@@ -12,7 +12,7 @@ Once I had the calculation system set up, I created the HTML & CSS files to prop
 
 I added the points each team is adding to the total beside its ranking in the UI, so the user can see how accurate each team is and therefore how many points they are adding to their total. The lower the team's points, the more transparent the number is, making it clearer which predictions are having the biggest effects on the user's total score.
 
-By having each team's full and shortened name's stored in JavaScript objects, I used CSS to switch between the two depending on what resolution the user is viewing the 
+By having each team's full and shortened name's stored in JavaScript objects, I used CSS to switch between the two depending on what screen resolution the user is using. This means the tables are a lot narrower when viewed on a mobile device, where as previously the tables would extend off the screen.
 
 ## To do list
 1) Continue to streamline the code as my JavaScript ability improves;
