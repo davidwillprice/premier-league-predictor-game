@@ -1,3 +1,5 @@
+//Started 10am 30/9/2018
+
 var mcfc = {fName : 'Manchester City', short : 'mcfc'};
 var liv = {fName : 'Liverpool', short : 'liv'};
 var che = {fName : 'Chelsea', short : 'che'};
@@ -76,7 +78,7 @@ function createTablehtml(name, table){
     }
     
     //Total score section
-    endHtml = '<p class="totalscore" id="%name%-score">%name%\'s score is %totaldiff%</p>';
+    endHtml = '<p class="totalscore" id="%name%-score"><span class="cap">%name%\'s</span> score is %totaldiff%</p>';
     endNewHTML = endHtml.replace(/%name%/g, name);
     endNewHTML = endNewHTML.replace('%totaldiff%', totalDiff);
     document.getElementById(name + '-container').insertAdjacentHTML('beforeend', endNewHTML);
