@@ -91,6 +91,10 @@ transform: rotate(20deg) scale(1.3);
     float:left;
 }
 
+.cap {
+    text-transform: capitalize;
+}
+
 .mcfc .divider {
     background-color:white;
 }
