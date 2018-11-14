@@ -4,6 +4,9 @@ Predict sports table with friends, points are calculated on how accurate you are
 ## Intro
 I started coding this as my first JavaScript project on 30/9/2018 to help calculate who's 2018/19 Premier League table prediction was more correct, mine or a friend's. For each position a predicted team is away from its actual position, 1 point is added to that person's total score, making the person with the fewest points the winner.
 
+## Screenshot
+![alt text](https://raw.githubusercontent.com/davidwillprice/premier-league-predictor-game/master/PL%20Predictor%20Screenshot_14%2010%202018.png)
+
 ## Progression
 
 I started by creating arrays of the current and prediction tables in JavaScript. The score is calculated logging the predicted position of the top team, finding the actual position of that team, finding the team's position difference by subtracting the actual position from the predicted position and then adding those points to a points total. The JavaScript cycles through the array and does the same for each team using a for loop.
