@@ -1,5 +1,3 @@
-//Started 10am 30/9/2018
-
 var mcfc = {fName : 'Manchester City', short : 'mcfc'};
 var liv = {fName : 'Liverpool', short : 'liv'};
 var che = {fName : 'Chelsea', short : 'che'};
