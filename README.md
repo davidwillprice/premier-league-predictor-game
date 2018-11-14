@@ -20,7 +20,8 @@ By having each team's full and shortened name's stored in JavaScript objects, I 
 3) Have the current table update in real-time via an API to cease the need of manual input;
 4) Improve appearance on all devices;
 5) Allow user to build their own table to test how accurate it is in comparison to the current table;
-6) Add additional comments to the JavaScript file
+6) Add animation that shows each team moving from their current position to predicted position to help the viewer better visualise the differences;
+7) Add additional comments to the JavaScript file
 
 ## Built With
 
